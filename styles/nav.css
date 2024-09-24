@@ -10,11 +10,11 @@ nav {
   padding-block: 2rem;
 
   line-height: 0;
-
 }
 
 nav ul {
   gap: 2rem;
+  list-style: none;
   padding-block: 8px;
 }
 
