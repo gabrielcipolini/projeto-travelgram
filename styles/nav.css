@@ -2,25 +2,24 @@ nav,
 ul {
   display: flex;
   align-items: center;
-  border: 1px solid red;
 }
 
 nav {
+  font: var(--text);
   justify-content: space-between;
+  padding-block: 2rem;
+
   line-height: 0;
-  padding: 2rem 3.2rem;
+
 }
 
 nav ul {
-  gap: 1.6rem;
+  gap: 2rem;
   list-style: none;
+  padding-block: 8px;
 }
 
-nav a {
-  color: var(--text-color-secondary);
-  font: 400 1.6rem/150% var(--font-poppins);
-  text-decoration: none;
-}
+
 nav a:hover {
   color: var(--brand-color);
   text-decoration: underline;
