@@ -15,14 +15,7 @@ nav {
 
 nav ul {
   gap: 2rem;
-  list-style: none;
   padding-block: 8px;
-}
-
-
-nav a:hover {
-  color: var(--brand-color);
-  text-decoration: underline;
 }
 
 nav ul li:first-child img:hover {

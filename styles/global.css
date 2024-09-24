@@ -33,6 +33,11 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
 .container {
   padding-inline: 3.2rem;
   margin-inline: auto;
@@ -41,4 +46,8 @@ a {
 
 .bg-surface-color {
   background-color: var(--surface-color);
+}
+
+ul {
+  list-style: none;
 }
