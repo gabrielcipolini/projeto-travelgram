@@ -1,0 +1,38 @@
+nav,
+ul {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+
+nav {
+  justify-content: space-between;
+  line-height: 0;
+  padding: 2rem 3.2rem;
+}
+
+nav ul {
+  gap: 1.6rem;
+  list-style: none;
+}
+
+nav a {
+  color: var(--text-color-secondary);
+  font: 400 1.6rem/150% var(--font-poppins);
+  text-decoration: none;
+}
+nav a:hover {
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+nav ul li:first-child img:hover {
+  content: url("/assets/icons/hover_search.svg");
+}
+
+nav ul li:last-child img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 4rem;
+  height: 4rem;
+}
