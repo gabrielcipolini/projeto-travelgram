@@ -14,6 +14,13 @@ header .container {
   gap: 3.2rem;
 }
 
+#profile img {
+  width: 17.6rem;
+  height: 17.6rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 #profile > div {
   max-width: 38.4rem;
 }
@@ -30,6 +37,8 @@ header .container {
   align-items: start;
   gap: 1.6rem;
   list-style: none;
+
+  width: 28rem;
 }
 
 #info li {
